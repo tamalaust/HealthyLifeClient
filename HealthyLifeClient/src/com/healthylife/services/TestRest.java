@@ -19,7 +19,7 @@ public class TestRest {
 	@GET
 	@Path("/basic")
 	public Response GetTestInfo() {
-		String result =transactionBo.retrive();
+		String result =transactionBo.retrive();//great job!!
 
 		return Response.status(200).entity(result).build();
 
